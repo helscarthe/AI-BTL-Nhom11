@@ -29,25 +29,25 @@
       },
       {
         "tenDinh": 4,
-        "doDai": 123.9677
+        "doDai": 158.114
       }
     ]
   },
   {
     "tenDinh": 4,
-    "toaDo": [689, 225],
+    "toaDo": [657, 213],
     "listDinhKe": [
       {
         "tenDinh": 3,
-        "doDai": 123.9677
+        "doDai": 158.114
       },
       {
         "tenDinh": 5,
-        "doDai": 105.3
+        "doDai": 71.1688
       },
       {
         "tenDinh": 16,
-        "doDai": 162.496
+        "doDai": 161.012
       }
     ]
   },
@@ -61,7 +61,7 @@
       },
       {
         "tenDinh": 4,
-        "doDai": 105.3
+        "doDai": 71.1688
       },
       {
         "tenDinh": 6,
@@ -219,7 +219,7 @@
     "listDinhKe": [
       {
         "tenDinh": 4,
-        "doDai": 162.496
+        "doDai": 161.012
       },
       {
         "tenDinh": 15,
@@ -264,6 +264,10 @@
       {
         "tenDinh": 17,
         "doDai": 40.4969
+      },
+      {
+        "tenDinh": 77,
+        "doDai": 27.2947
       }
     ]
   },
@@ -295,7 +299,7 @@
       },
       {
         "tenDinh": 21,
-        "doDai": 85.1587
+        "doDai": 75
       },
       {
         "tenDinh": 22,
@@ -305,11 +309,15 @@
   },
   {
     "tenDinh": 21,
-    "toaDo": [477, 407],
+    "toaDo": [442, 395],
     "listDinhKe": [
       {
+        "tenDinh": 78,
+        "doDai": 37
+      },
+      {
         "tenDinh": 20,
-        "doDai": 85.1587
+        "doDai": 75
       }
     ]
   },
@@ -369,7 +377,7 @@
       },
       {
         "tenDinh": 26,
-        "doDai": 81.32
+        "doDai": 68.7095
       },
       {
         "tenDinh": 27,
@@ -379,11 +387,15 @@
   },
   {
     "tenDinh": 26,
-    "toaDo": [237, 327],
+    "toaDo": [269, 333],
     "listDinhKe": [
       {
         "tenDinh": 25,
-        "doDai": 81.32
+        "doDai": 68.7095
+      },
+      {
+        "tenDinh": 79,
+        "doDai": 32.5576
       }
     ]
   },
@@ -615,25 +627,25 @@
       },
       {
         "tenDinh": 43,
-        "doDai": 133.124
+        "doDai": 92.72
       }
     ]
   },
   {
     "tenDinh": 43,
-    "toaDo": [395, 419],
+    "toaDo": [395, 492],
     "listDinhKe": [
       {
         "tenDinh": 42,
-        "doDai": 133.124
+        "doDai": 92.72
       },
       {
         "tenDinh": 44,
-        "doDai": 92.136
+        "doDai": 89.3197
       },
       {
         "tenDinh": 65,
-        "doDai": 278.6862
+        "doDai": 208.396
       }
     ]
   },
@@ -643,7 +655,7 @@
     "listDinhKe": [
       {
         "tenDinh": 43,
-        "doDai": 92.136
+        "doDai": 89.3197
       },
       {
         "tenDinh": 22,
@@ -925,7 +937,7 @@
       },
       {
         "tenDinh": 62,
-        "doDai": 130.096
+        "doDai": 123.369
       },
       {
         "tenDinh": 63,
@@ -939,11 +951,15 @@
   },
   {
     "tenDinh": 62,
-    "toaDo": [538, 627],
+    "toaDo": [506, 618],
     "listDinhKe": [
       {
         "tenDinh": 61,
-        "doDai": 130.096
+        "doDai": 123.369
+      },
+      {
+        "tenDinh": 80,
+        "doDai": 33.2415
       }
     ]
   },
@@ -981,7 +997,7 @@
     "listDinhKe": [
       {
         "tenDinh": 43,
-        "doDai": 278.6862
+        "doDai": 208.396
       },
       {
         "tenDinh": 63,
@@ -1148,6 +1164,46 @@
       {
         "tenDinh": 75,
         "doDai": 73.0821
+      }
+    ]
+  },
+  {
+    "tenDinh": 77,
+    "toaDo": [578, 314],
+    "listDinhKe": [
+      {
+        "tenDinh": 18,
+        "doDai": 27.2947
+      }
+    ]
+  },
+  {
+    "tenDinh": 78,
+    "toaDo": [477, 407],
+    "listDinhKe": [
+      {
+        "tenDinh": 21,
+        "doDai": 37
+      }
+    ]
+  },
+  {
+    "tenDinh": 79,
+    "toaDo": [237, 327],
+    "listDinhKe": [
+      {
+        "tenDinh": 26,
+        "doDai": 32.5576
+      }
+    ]
+  },
+  {
+    "tenDinh": 80,
+    "toaDo": [538, 627],
+    "listDinhKe": [
+      {
+        "tenDinh": 62,
+        "doDai": 33.2415
       }
     ]
   }
