@@ -1,0 +1,1154 @@
+[
+  {
+    "tenDinh": 1,
+    "toaDo": [726, 100],
+    "listDinhKe": [
+      {
+        "tenDinh": 2,
+        "doDai": 107.447
+      }
+    ]
+  },
+  {
+    "tenDinh": 2,
+    "toaDo": [622, 73],
+    "listDinhKe": [
+      {
+        "tenDinh": 5,
+        "doDai": 123.49
+      }
+    ]
+  },
+  {
+    "tenDinh": 3,
+    "toaDo": [807, 263],
+    "listDinhKe": [
+      {
+        "tenDinh": 15,
+        "doDai": 158.1455
+      },
+      {
+        "tenDinh": 4,
+        "doDai": 123.9677
+      }
+    ]
+  },
+  {
+    "tenDinh": 4,
+    "toaDo": [689, 225],
+    "listDinhKe": [
+      {
+        "tenDinh": 3,
+        "doDai": 123.9677
+      },
+      {
+        "tenDinh": 5,
+        "doDai": 105.3
+      },
+      {
+        "tenDinh": 16,
+        "doDai": 162.496
+      }
+    ]
+  },
+  {
+    "tenDinh": 5,
+    "toaDo": [589, 192],
+    "listDinhKe": [
+      {
+        "tenDinh": 2,
+        "doDai": 123.49
+      },
+      {
+        "tenDinh": 4,
+        "doDai": 105.3
+      },
+      {
+        "tenDinh": 6,
+        "doDai": 56.5155
+      }
+    ]
+  },
+  {
+    "tenDinh": 6,
+    "toaDo": [534, 179],
+    "listDinhKe": [
+      {
+        "tenDinh": 5,
+        "doDai": 56.5155
+      },
+      {
+        "tenDinh": 7,
+        "doDai": 125.865
+      },
+      {
+        "tenDinh": 14,
+        "doDai": 141.481
+      }
+    ]
+  },
+  {
+    "tenDinh": 7,
+    "toaDo": [415, 138],
+    "listDinhKe": [
+      {
+        "tenDinh": 6,
+        "doDai": 125.865
+      },
+      {
+        "tenDinh": 8,
+        "doDai": 57.567
+      }
+    ]
+  },
+  {
+    "tenDinh": 8,
+    "toaDo": [360, 121],
+    "listDinhKe": [
+      {
+        "tenDinh": 7,
+        "doDai": 57.567
+      },
+      {
+        "tenDinh": 9,
+        "doDai": 30.365
+      }
+    ]
+  },
+  {
+    "tenDinh": 9,
+    "toaDo": [369, 150],
+    "listDinhKe": [
+      {
+        "tenDinh": 10,
+        "doDai": 41.146
+      },
+      {
+        "tenDinh": 11,
+        "doDai": 512
+      }
+    ]
+  },
+  {
+    "tenDinh": 10,
+    "toaDo": [332, 168],
+    "listDinhKe": [
+      {
+        "tenDinh": 9,
+        "doDai": 41.146
+      }
+    ]
+  },
+  {
+    "tenDinh": 11,
+    "toaDo": [396, 201],
+    "listDinhKe": [
+      {
+        "tenDinh": 7,
+        "doDai": 65.8027
+      },
+      {
+        "tenDinh": 14,
+        "doDai": 150.987
+      }
+    ]
+  },
+  {
+    "tenDinh": 12,
+    "toaDo": [382, 244],
+    "listDinhKe": [
+      {
+        "tenDinh": 11,
+        "doDai": 45.2217
+      },
+      {
+        "tenDinh": 13,
+        "doDai": 31.0484
+      }
+    ]
+  },
+  {
+    "tenDinh": 13,
+    "toaDo": [352, 232],
+    "listDinhKe": [
+      {
+        "tenDinh": 12,
+        "doDai": 31.0484
+      }
+    ]
+  },
+  {
+    "tenDinh": 14,
+    "toaDo": [495, 315],
+    "listDinhKe": [
+      {
+        "tenDinh": 6,
+        "doDai": 141.481
+      },
+      {
+        "tenDinh": 19,
+        "doDai": 15.8114
+      },
+      {
+        "tenDinh": 17,
+        "doDai": 53.4135
+      }
+    ]
+  },
+  {
+    "tenDinh": 15,
+    "toaDo": [760, 414],
+    "listDinhKe": [
+      {
+        "tenDinh": 3,
+        "doDai": 158.1455
+      },
+      {
+        "tenDinh": 16,
+        "doDai": 157.19
+      },
+      {
+        "tenDinh": 34,
+        "doDai": 111.973
+      }
+    ]
+  },
+  {
+    "tenDinh": 16,
+    "toaDo": [610, 367],
+    "listDinhKe": [
+      {
+        "tenDinh": 4,
+        "doDai": 162.496
+      },
+      {
+        "tenDinh": 15,
+        "doDai": 157.19
+      },
+      {
+        "tenDinh": 17,
+        "doDai": 75.432
+      }
+    ]
+  },
+  {
+    "tenDinh": 17,
+    "toaDo": [537, 348],
+    "listDinhKe": [
+      {
+        "tenDinh": 16,
+        "doDai": 75.432
+      },
+      {
+        "tenDinh": 18,
+        "doDai": 40.4969
+      },
+      {
+        "tenDinh": 19,
+        "doDai": 50.3289
+      },
+      {
+        "tenDinh": 30,
+        "doDai": 90.1388
+      },
+      {
+        "tenDinh": 32,
+        "doDai": 153.4829
+      }
+    ]
+  },
+  {
+    "tenDinh": 18,
+    "toaDo": [551, 310],
+    "listDinhKe": [
+      {
+        "tenDinh": 17,
+        "doDai": 40.4969
+      }
+    ]
+  },
+  {
+    "tenDinh": 19,
+    "toaDo": [490, 330],
+    "listDinhKe": [
+      {
+        "tenDinh": 14,
+        "doDai": 15.8114
+      },
+      {
+        "tenDinh": 17,
+        "doDai": 50.3289
+      },
+      {
+        "tenDinh": 20,
+        "doDai": 27.8927
+      }
+    ]
+  },
+  {
+    "tenDinh": 20,
+    "toaDo": [463, 323],
+    "listDinhKe": [
+      {
+        "tenDinh": 19,
+        "doDai": 27.8927
+      },
+      {
+        "tenDinh": 21,
+        "doDai": 85.1587
+      },
+      {
+        "tenDinh": 22,
+        "doDai": 101.8332
+      }
+    ]
+  },
+  {
+    "tenDinh": 21,
+    "toaDo": [477, 407],
+    "listDinhKe": [
+      {
+        "tenDinh": 20,
+        "doDai": 85.1587
+      }
+    ]
+  },
+  {
+    "tenDinh": 22,
+    "toaDo": [366, 292],
+    "listDinhKe": [
+      {
+        "tenDinh": 20,
+        "doDai": 101.8332
+      },
+      {
+        "tenDinh": 12,
+        "doDai": 50.5964
+      },
+      {
+        "tenDinh": 23,
+        "doDai": 64.5135
+      }
+    ]
+  },
+  {
+    "tenDinh": 23,
+    "toaDo": [305, 271],
+    "listDinhKe": [
+      {
+        "tenDinh": 22,
+        "doDai": 64.5135
+      },
+      {
+        "tenDinh": 24,
+        "doDai": 34.4819
+      },
+      {
+        "tenDinh": 25,
+        "doDai": 11.1803
+      }
+    ]
+  },
+  {
+    "tenDinh": 24,
+    "toaDo": [315, 238],
+    "listDinhKe": [
+      {
+        "tenDinh": 23,
+        "doDai": 34.4819
+      }
+    ]
+  },
+  {
+    "tenDinh": 25,
+    "toaDo": [294, 269],
+    "listDinhKe": [
+      {
+        "tenDinh": 23,
+        "doDai": 11.1803
+      },
+      {
+        "tenDinh": 26,
+        "doDai": 81.32
+      },
+      {
+        "tenDinh": 27,
+        "doDai": 39.56
+      }
+    ]
+  },
+  {
+    "tenDinh": 26,
+    "toaDo": [237, 327],
+    "listDinhKe": [
+      {
+        "tenDinh": 25,
+        "doDai": 81.32
+      }
+    ]
+  },
+  {
+    "tenDinh": 27,
+    "toaDo": [257, 255],
+    "listDinhKe": [
+      {
+        "tenDinh": 25,
+        "doDai": 39.56
+      },
+      {
+        "tenDinh": 28,
+        "doDai": 39.22
+      },
+      {
+        "tenDinh": 29,
+        "doDai": 69.642
+      }
+    ]
+  },
+  {
+    "tenDinh": 28,
+    "toaDo": [244, 292],
+    "listDinhKe": [
+      {
+        "tenDinh": 27,
+        "doDai": 39.22
+      }
+    ]
+  },
+  {
+    "tenDinh": 29,
+    "toaDo": [190, 236],
+    "listDinhKe": [
+      {
+        "tenDinh": 27,
+        "doDai": 69.642
+      }
+    ]
+  },
+  {
+    "tenDinh": 30,
+    "toaDo": [510, 434],
+    "listDinhKe": [
+      {
+        "tenDinh": 17,
+        "doDai": 90.1388
+      },
+      {
+        "tenDinh": 31,
+        "doDai": 65.6
+      },
+      {
+        "tenDinh": 42,
+        "doDai": 87.932
+      }
+    ]
+  },
+  {
+    "tenDinh": 31,
+    "toaDo": [562, 474],
+    "listDinhKe": [
+      {
+        "tenDinh": 30,
+        "doDai": 65.6
+      }
+    ]
+  },
+  {
+    "tenDinh": 32,
+    "toaDo": [648, 454],
+    "listDinhKe": [
+      {
+        "tenDinh": 33,
+        "doDai": 63.411
+      },
+      {
+        "tenDinh": 34,
+        "doDai": 103.586
+      }
+    ]
+  },
+  {
+    "tenDinh": 33,
+    "toaDo": [609, 504],
+    "listDinhKe": [
+      {
+        "tenDinh": 32,
+        "doDai": 63.411
+      }
+    ]
+  },
+  {
+    "tenDinh": 34,
+    "toaDo": [727, 521],
+    "listDinhKe": [
+      {
+        "tenDinh": 15,
+        "doDai": 111.973
+      },
+      {
+        "tenDinh": 35,
+        "doDai": 156.272
+      },
+      {
+        "tenDinh": 36,
+        "doDai": 71.568
+      }
+    ]
+  },
+  {
+    "tenDinh": 35,
+    "toaDo": [838, 631],
+    "listDinhKe": [
+      {
+        "tenDinh": 36,
+        "doDai": 136.312
+      }
+    ]
+  },
+  {
+    "tenDinh": 36,
+    "toaDo": [708, 590],
+    "listDinhKe": [
+      {
+        "tenDinh": 34,
+        "doDai": 71.568
+      },
+      {
+        "tenDinh": 35,
+        "doDai": 136.312
+      },
+      {
+        "tenDinh": 37,
+        "doDai": 90.7
+      },
+      {
+        "tenDinh": 45,
+        "doDai": 75.895
+      }
+    ]
+  },
+  {
+    "tenDinh": 37,
+    "toaDo": [620, 568],
+    "listDinhKe": [
+      {
+        "tenDinh": 36,
+        "doDai": 90.7
+      },
+      {
+        "tenDinh": 38,
+        "doDai": 75.03
+      },
+      {
+        "tenDinh": 46,
+        "doDai": 50.3289
+      }
+    ]
+  },
+  {
+    "tenDinh": 38,
+    "toaDo": [550, 541],
+    "listDinhKe": [
+      {
+        "tenDinh": 37,
+        "doDai": 75.03
+      },
+      {
+        "tenDinh": 39,
+        "doDai": 48.5
+      },
+      {
+        "tenDinh": 40,
+        "doDai": 17.72
+      }
+    ]
+  },
+  {
+    "tenDinh": 39,
+    "toaDo": [562, 494],
+    "listDinhKe": [
+      {
+        "tenDinh": 38,
+        "doDai": 48.5
+      }
+    ]
+  },
+  {
+    "tenDinh": 40,
+    "toaDo": [533, 536],
+    "listDinhKe": [
+      {
+        "tenDinh": 38,
+        "doDai": 17.72
+      },
+      {
+        "tenDinh": 41,
+        "doDai": 50.7
+      },
+      {
+        "tenDinh": 42,
+        "doDai": 52.2
+      }
+    ]
+  },
+  {
+    "tenDinh": 41,
+    "toaDo": [552, 489],
+    "listDinhKe": [
+      {
+        "tenDinh": 40,
+        "doDai": 50.7
+      }
+    ]
+  },
+  {
+    "tenDinh": 42,
+    "toaDo": [484, 518],
+    "listDinhKe": [
+      {
+        "tenDinh": 30,
+        "doDai": 87.932
+      },
+      {
+        "tenDinh": 40,
+        "doDai": 52.2
+      },
+      {
+        "tenDinh": 43,
+        "doDai": 133.124
+      }
+    ]
+  },
+  {
+    "tenDinh": 43,
+    "toaDo": [395, 419],
+    "listDinhKe": [
+      {
+        "tenDinh": 42,
+        "doDai": 133.124
+      },
+      {
+        "tenDinh": 44,
+        "doDai": 92.136
+      },
+      {
+        "tenDinh": 65,
+        "doDai": 278.6862
+      }
+    ]
+  },
+  {
+    "tenDinh": 44,
+    "toaDo": [312, 459],
+    "listDinhKe": [
+      {
+        "tenDinh": 43,
+        "doDai": 92.136
+      },
+      {
+        "tenDinh": 22,
+        "doDai": 175.5135
+      }
+    ]
+  },
+  {
+    "tenDinh": 45,
+    "toaDo": [684, 662],
+    "listDinhKe": [
+      {
+        "tenDinh": 36,
+        "doDai": 75.895
+      },
+      {
+        "tenDinh": 46,
+        "doDai": 94.5145
+      },
+      {
+        "tenDinh": 49,
+        "doDai": 33.7343
+      }
+    ]
+  },
+  {
+    "tenDinh": 46,
+    "toaDo": [602, 615],
+    "listDinhKe": [
+      {
+        "tenDinh": 37,
+        "doDai": 50.3289
+      },
+      {
+        "tenDinh": 45,
+        "doDai": 94.5145
+      },
+      {
+        "tenDinh": 55,
+        "doDai": 51.0
+      }
+    ]
+  },
+  {
+    "tenDinh": 47,
+    "toaDo": [830, 761],
+    "listDinhKe": [
+      {
+        "tenDinh": 48,
+        "doDai": 76.5572
+      }
+    ]
+  },
+  {
+    "tenDinh": 48,
+    "toaDo": [760, 730],
+    "listDinhKe": [
+      {
+        "tenDinh": 47,
+        "doDai": 76.5572
+      },
+      {
+        "tenDinh": 49,
+        "doDai": 90.0777
+      },
+      {
+        "tenDinh": 50,
+        "doDai": 25.5539
+      }
+    ]
+  },
+  {
+    "tenDinh": 49,
+    "toaDo": [677, 695],
+    "listDinhKe": [
+      {
+        "tenDinh": 45,
+        "doDai": 33.7343
+      },
+      {
+        "tenDinh": 48,
+        "doDai": 90.0777
+      },
+      {
+        "tenDinh": 52,
+        "doDai": 13.0384
+      }
+    ]
+  },
+  {
+    "tenDinh": 50,
+    "toaDo": [747, 752],
+    "listDinhKe": [
+      {
+        "tenDinh": 48,
+        "doDai": 25.5539
+      },
+      {
+        "tenDinh": 51,
+        "doDai": 32.249
+      },
+      {
+        "tenDinh": 57,
+        "doDai": 69.6419
+      }
+    ]
+  },
+  {
+    "tenDinh": 51,
+    "toaDo": [719, 736],
+    "listDinhKe": [
+      {
+        "tenDinh": 50,
+        "doDai": 32.249
+      }
+    ]
+  },
+  {
+    "tenDinh": 52,
+    "toaDo": [670, 706],
+    "listDinhKe": [
+      {
+        "tenDinh": 49,
+        "doDai": 13.0384
+      },
+      {
+        "tenDinh": 53,
+        "doDai": 33.2415
+      },
+      {
+        "tenDinh": 58,
+        "doDai": 90.5207
+      }
+    ]
+  },
+  {
+    "tenDinh": 53,
+    "toaDo": [639, 694],
+    "listDinhKe": [
+      {
+        "tenDinh": 52,
+        "doDai": 33.2415
+      },
+      {
+        "tenDinh": 54,
+        "doDai": 44.643
+      },
+      {
+        "tenDinh": 55,
+        "doDai": 69.8355
+      }
+    ]
+  },
+  {
+    "tenDinh": 54,
+    "toaDo": [627, 737],
+    "listDinhKe": [
+      {
+        "tenDinh": 53,
+        "doDai": 44.643
+      }
+    ]
+  },
+  {
+    "tenDinh": 55,
+    "toaDo": [578, 660],
+    "listDinhKe": [
+      {
+        "tenDinh": 53,
+        "doDai": 69.8355
+      },
+      {
+        "tenDinh": 46,
+        "doDai": 51
+      },
+      {
+        "tenDinh": 60,
+        "doDai": 106.55
+      }
+    ]
+  },
+  {
+    "tenDinh": 56,
+    "toaDo": [760, 832],
+    "listDinhKe": [
+      {
+        "tenDinh": 57,
+        "doDai": 40.8534
+      }
+    ]
+  },
+  {
+    "tenDinh": 57,
+    "toaDo": [722, 817],
+    "listDinhKe": [
+      {
+        "tenDinh": 50,
+        "doDai": 69.6419
+      },
+      {
+        "tenDinh": 56,
+        "doDai": 40.8534
+      },
+      {
+        "tenDinh": 58,
+        "doDai": 80.6536
+      },
+      {
+        "tenDinh": 67,
+        "doDai": 58.1893
+      }
+    ]
+  },
+  {
+    "tenDinh": 58,
+    "toaDo": [645, 793],
+    "listDinhKe": [
+      {
+        "tenDinh": 52,
+        "doDai": 90.5207
+      },
+      {
+        "tenDinh": 57,
+        "doDai": 80.6536
+      },
+      {
+        "tenDinh": 59,
+        "doDai": 84.4334
+      },
+      {
+        "tenDinh": 69,
+        "doDai": 49.3356
+      }
+    ]
+  },
+  {
+    "tenDinh": 59,
+    "toaDo": [565, 766],
+    "listDinhKe": [
+      {
+        "tenDinh": 58,
+        "doDai": 84.4334
+      },
+      {
+        "tenDinh": 60,
+        "doDai": 41.1096
+      },
+      {
+        "tenDinh": 72,
+        "doDai": 58.5235
+      }
+    ]
+  },
+  {
+    "tenDinh": 60,
+    "toaDo": [526, 753],
+    "listDinhKe": [
+      {
+        "tenDinh": 55,
+        "doDai": 106.55
+      },
+      {
+        "tenDinh": 59,
+        "doDai": 41.1096
+      },
+      {
+        "tenDinh": 61,
+        "doDai": 64.846
+      }
+    ]
+  },
+  {
+    "tenDinh": 61,
+    "toaDo": [464, 734],
+    "listDinhKe": [
+      {
+        "tenDinh": 60,
+        "doDai": 64.846
+      },
+      {
+        "tenDinh": 62,
+        "doDai": 130.096
+      },
+      {
+        "tenDinh": 63,
+        "doDai": 38.0789
+      },
+      {
+        "tenDinh": 73,
+        "doDai": 60.7454
+      }
+    ]
+  },
+  {
+    "tenDinh": 62,
+    "toaDo": [538, 627],
+    "listDinhKe": [
+      {
+        "tenDinh": 61,
+        "doDai": 130.096
+      }
+    ]
+  },
+  {
+    "tenDinh": 63,
+    "toaDo": [429, 719],
+    "listDinhKe": [
+      {
+        "tenDinh": 61,
+        "doDai": 38.0789
+      },
+      {
+        "tenDinh": 64,
+        "doDai": 81.0432
+      },
+      {
+        "tenDinh": 65,
+        "doDai": 103.16
+      }
+    ]
+  },
+  {
+    "tenDinh": 64,
+    "toaDo": [451, 641],
+    "listDinhKe": [
+      {
+        "tenDinh": 63,
+        "doDai": 81.0432
+      }
+    ]
+  },
+  {
+    "tenDinh": 65,
+    "toaDo": [330, 690],
+    "listDinhKe": [
+      {
+        "tenDinh": 43,
+        "doDai": 278.6862
+      },
+      {
+        "tenDinh": 63,
+        "doDai": 103.16
+      },
+      {
+        "tenDinh": 66,
+        "doDai": 166.337
+      },
+      {
+        "tenDinh": 74,
+        "doDai": 69.3758
+      }
+    ]
+  },
+  {
+    "tenDinh": 66,
+    "toaDo": [172, 638],
+    "listDinhKe": [
+      {
+        "tenDinh": 65,
+        "doDai": 166.337
+      }
+    ]
+  },
+  {
+    "tenDinh": 67,
+    "toaDo": [703, 872],
+    "listDinhKe": [
+      {
+        "tenDinh": 57,
+        "doDai": 58.1893
+      },
+      {
+        "tenDinh": 68,
+        "doDai": 31.9531
+      }
+    ]
+  },
+  {
+    "tenDinh": 68,
+    "toaDo": [733, 883],
+    "listDinhKe": [
+      {
+        "tenDinh": 67,
+        "doDai": 31.9531
+      }
+    ]
+  },
+  {
+    "tenDinh": 69,
+    "toaDo": [630, 840],
+    "listDinhKe": [
+      {
+        "tenDinh": 58,
+        "doDai": 49.3356
+      },
+      {
+        "tenDinh": 70,
+        "doDai": 51.264
+      },
+      {
+        "tenDinh": 71,
+        "doDai": 8.06226
+      }
+    ]
+  },
+  {
+    "tenDinh": 70,
+    "toaDo": [678, 858],
+    "listDinhKe": [
+      {
+        "tenDinh": 69,
+        "doDai": 51.264
+      }
+    ]
+  },
+  {
+    "tenDinh": 71,
+    "toaDo": [629, 848],
+    "listDinhKe": [
+      {
+        "tenDinh": 69,
+        "doDai": 8.06226
+      },
+      {
+        "tenDinh": 72,
+        "doDai": 85.0706
+      }
+    ]
+  },
+  {
+    "tenDinh": 72,
+    "toaDo": [548, 822],
+    "listDinhKe": [
+      {
+        "tenDinh": 59,
+        "doDai": 58.5235
+      },
+      {
+        "tenDinh": 71,
+        "doDai": 85.0706
+      },
+      {
+        "tenDinh": 73,
+        "doDai": 109.481
+      }
+    ]
+  },
+  {
+    "tenDinh": 73,
+    "toaDo": [443, 791],
+    "listDinhKe": [
+      {
+        "tenDinh": 72,
+        "doDai": 109.481
+      },
+      {
+        "tenDinh": 61,
+        "doDai": 60.7454
+      },
+      {
+        "tenDinh": 74,
+        "doDai": 135.34
+      }
+    ]
+  },
+  {
+    "tenDinh": 74,
+    "toaDo": [312, 757],
+    "listDinhKe": [
+      {
+        "tenDinh": 65,
+        "doDai": 69.3758
+      },
+      {
+        "tenDinh": 73,
+        "doDai": 135.34
+      },
+      {
+        "tenDinh": 75,
+        "doDai": 27.8569
+      }
+    ]
+  },
+  {
+    "tenDinh": 75,
+    "toaDo": [302, 783],
+    "listDinhKe": [
+      {
+        "tenDinh": 74,
+        "doDai": 27.8569
+      },
+      {
+        "tenDinh": 76,
+        "doDai": 73.0821
+      }
+    ]
+  },
+  {
+    "tenDinh": 76,
+    "toaDo": [232, 762],
+    "listDinhKe": [
+      {
+        "tenDinh": 75,
+        "doDai": 73.0821
+      }
+    ]
+  }
+]
