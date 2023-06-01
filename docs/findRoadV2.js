@@ -128,6 +128,7 @@ function A_Star(start, goal, h) {
   openSet.add({ dinh: start, f: fScore[start.tenDinh] });
   var isInOpenSet = [];
   isInOpenSet[start.tenDinh] = true;
+
   while (openSet.peek() != null) {
     var current = openSet.peek();
     current = current.dinh;
@@ -135,6 +136,7 @@ function A_Star(start, goal, h) {
       return reconstruct_path(cameFrom, current);
     }
     openSet.remove(); // openSet remove current;
+    isInOpenSet[current.tenDinh] = false;
     current.listDinhKe.forEach(({ tenDinh, doDai }) => {
       var neighbor = dinhs[tenDinh - 1];
       var tentative_gScore = gScore[current.tenDinh] + doDai;
