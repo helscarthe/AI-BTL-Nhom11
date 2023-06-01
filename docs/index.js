@@ -185,7 +185,7 @@ function findRoad(startName, endName, jsonData) {
 
 async function getJSONData() {
   const response = await fetch(
-    "https://helscarthe.github.io/AI-BTL-Nhom11/giao_diem.json"
+    "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/giao_diem.json"
   );
   var jsonData = await response.json();
   var btn = document.getElementById("search");
