@@ -1,0 +1,22 @@
+.textBox {
+  background-color: aqua;
+  margin-left: 0;
+  width: 30%;
+  padding-bottom: 43%;
+  border-right: 2px solid #000;
+  float: left;
+}
+.map {
+  float: right;
+}
+#board {
+  position: relative;
+  width: 900px;
+  height: 900px;
+}
+#image {
+  position: absolute;
+}
+#myCanvas {
+  position: absolute;
+}
