@@ -26,22 +26,19 @@ function calculateF(prePoint, curPoint, endPoint, c) {
 }
 function getNextPoint(waitList, prePoint, endPoint) {
   var minIndex = 0;
-  var fmin = calculateF(
-    prePoint,
-    dinhs[waitList[0].tenDinh - 1],
-    endPoint,
-    waitList[0].doDai
-  );
-  for (var i = 1; i < waitList.length; i++) {
-    var f = calculateF(
-      prePoint,
-      dinhs[waitList[i].tenDinh - 1],
-      endPoint,
-      waitList[i].doDai
-    );
-    if (fmin > f) {
-      fmin = f;
-      minIndex = i;
+  var fmin = 1000000;
+  for (var i = 0; i < waitList.length; i++) {
+    if (dinhs[waitList[i].tenDinh - 1].pre === prePoint) {
+      var f = calculateF(
+        prePoint,
+        dinhs[waitList[i].tenDinh - 1],
+        endPoint,
+        waitList[i].doDai
+      );
+      if (fmin > f) {
+        fmin = f;
+        minIndex = i;
+      }
     }
   }
   var tmp = waitList[minIndex];
@@ -74,7 +71,9 @@ function findRoadByA(startPointName, endPointName) {
     var curPoint = getNextPoint(waitList, prePoint, endPoint);
     for (var i = 0; i < curPoint.listDinhKe.length; i++) {
       var linkedPoint = dinhs[curPoint.listDinhKe[i].tenDinh - 1];
-      if (linkedPoint.pre === undefined) {
+      if (waitList.includes(linkedPoint)) {
+        linkedPoint.pre = curPoint;
+      } else if (linkedPoint.pre === undefined) {
         linkedPoint.pre = curPoint;
         waitList.push(curPoint.listDinhKe[i]);
       }
