@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1.0, maximun-scale=1.0,user-scalable=1">
-        <title>TranHungDao</title>
-        <link rel="stylesheet" type="text/css" href="TranHungDao.css">
-        <link rel="stylesheet" type="text/Javascript" href="TranHungDao.js">
-    </head>
-    <body>
-        <div class="content">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximun-scale=1.0,user-scalable=1"
+    />
+    <title>TranHungDao</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div class="content">
             <form>
                 <div class="textBox">
                     <div class="Start">
@@ -61,11 +63,8 @@
                         <button type="reset">reset</button>
                     </form>  
                     </div>
-        
-        
-        
                     <div class="Target">
-                        <form>
+        
                         <label for="lang-select">Đường:</label>
                     <select name="lang" id="lang-select">
                         <option value=""selected >Không</option>
@@ -111,19 +110,28 @@
                     </select>
                 </br>
                     <button type="reset">reset</button>
-                </form>  
+
                 
                     </div>
+
+
                     <button>Submit</button>     
                 </form>    
-                </div>
-               
+                
+
         </div>
-        
+        <input type="number" id="startName"/>
+        <input type="number" id="endName"/>
+
+        <button id="search" >Search</button>
+        <button id = "a">Nhán vào để thấy các điểm</button>  
         <div class="map">
-            <img src="TranHungDao.jpg" />
+            <div id="board">
+                <img id="image" src="map.png" />
+                <canvas id="myCanvas" width="900px" height="900px"></canvas>
+              </div>
         </div>
-        
-    </body>
-    <script src="TranHungDao.js"></script>
+  </body>
+  <script src="./test.js"></script>
+  <script src="./index.js"></script>
 </html>
