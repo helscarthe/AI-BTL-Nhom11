@@ -4,27 +4,251 @@
     "tenDuong": "Tràng Thi",
     "cap": 0,
     "listDuongNho": [],
-    "listCanh": []
+    "listCanh": [1]
   },
   {
     "id": 2,
     "tenDuong": "Triệu Quốc Đạt",
-    "cap": 1,
+    "cap": 0,
     "listDuongNho": [],
-    "listCanh": []
+    "listCanh": [2]
   },
   {
     "id": 3,
     "tenDuong": "Hai Bà Trưng",
-    "cap": 1,
+    "cap": 0,
     "listDuongNho": [],
-    "listCanh": []
+    "listCanh": [3, 4, 5, 6, 7]
   },
   {
     "id": 4,
     "tenDuong": "Thợ Nhuộm",
+    "cap": 0,
+    "listDuongNho": [5, 19],
+    "listCanh": [8, 10, 15, 17, 39, 41, 43]
+  },
+  {
+    "id": 5,
+    "tenDuong": "Ngõ 42 Thợ Nhuộm",
     "cap": 1,
     "listDuongNho": [],
-    "listCanh": []
+    "listCanh": [9]
+  },
+  {
+    "id": 6,
+    "tenDuong": "Quán Sứ",
+    "cap": 0,
+    "listDuongNho": [7],
+    "listCanh": [11, 12, 14]
+  },
+  {
+    "id": 7,
+    "tenDuong": "Ngõ Quán Sứ",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [13]
+  },
+  {
+    "id": 8,
+    "tenDuong": "Hỏa Lò",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": [16]
+  },
+  {
+    "id": 9,
+    "tenDuong": "19 tháng 12",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": [20]
+  },
+  {
+    "id": 10,
+    "tenDuong": "Quang Trung",
+    "cap": 0,
+    "listDuongNho": [33],
+    "listCanh": [18, 42, 45, 56, 63, 65, 75, 89, 90]
+  },
+  {
+    "id": 11,
+    "tenDuong": "Lý Thường Kiệt",
+    "cap": 0,
+    "listDuongNho": [12, 13, 14, 15, 16],
+    "listCanh": [19, 21, 24, 25, 28, 29, 30, 34, 36]
+  },
+  {
+    "id": 12,
+    "tenDuong": "Ngõ 48A Lý Thường Kiệt",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [22, 23]
+  },
+  {
+    "id": 13,
+    "tenDuong": "Ngõ Lý Thường Kiệt",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [26, 27]
+  },
+  {
+    "id": 14,
+    "tenDuong": "Ngõ 62 Lý Thường Kiệt",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [31]
+  },
+  {
+    "id": 15,
+    "tenDuong": "Ngõ 83A Lý Thường Kiệt",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [32, 33]
+  },
+  {
+    "id": 16,
+    "tenDuong": "Ngõ 83B Lý Thường Kiệt",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [35]
+  },
+  {
+    "id": 17,
+    "tenDuong": "Dã Tượng",
+    "cap": 0,
+    "listDuongNho": [18],
+    "listCanh": [37, 52]
+  },
+  {
+    "id": 18,
+    "tenDuong": "Ngõ Dã Tượng",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [38]
+  },
+  {
+    "id": 19,
+    "tenDuong": "Ngõ Thợ Nhuộm",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [40]
+  },
+  {
+    "id": 20,
+    "tenDuong": "Trần Hưng Đạo",
+    "cap": 0,
+    "listDuongNho": [21, 22],
+    "listCanh": [44, 46, 47, 49, 51, 53, 54]
+  },
+  {
+    "id": 21,
+    "tenDuong": "Ngõ 72 Trần Hưng Đạo",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [48]
+  },
+  {
+    "id": 22,
+    "tenDuong": "Ngõ 74 Trần Hưng Đạo",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [50]
+  },
+  {
+    "id": 23,
+    "tenDuong": "Ngô Văn Sở",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": [59, 62]
+  },
+  {
+    "id": 24,
+    "tenDuong": "Trương Hán Siêu",
+    "cap": 0,
+    "listDuongNho": [25, 32],
+    "listCanh": [60, 73, 87]
+  },
+  {
+    "id": 25,
+    "tenDuong": "Ngõ 1 Trương Hán Siêu",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [86]
+  },
+  {
+    "id": 26,
+    "tenDuong": "Xóm Hà Hồi",
+    "cap": 0,
+    "listDuongNho": [27],
+    "listCanh": [57, 58, 64, 66, 68, 69, 70, 71]
+  },
+  {
+    "id": 27,
+    "tenDuong": "Ngõ Xóm Hà Hồi",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [67]
+  },
+  {
+    "id": 28,
+    "tenDuong": "Trần Quốc Toản",
+    "cap": 0,
+    "listDuongNho": [35],
+    "listCanh": [72, 74, 76, 77, 78, 81, 83, 85]
+  },
+  {
+    "id": 29,
+    "tenDuong": "Liên Trì",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": [79, 80, 94]
+  },
+  {
+    "id": 30,
+    "tenDuong": "Đoàn Như Hài",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": [82]
+  },
+  {
+    "id": 31,
+    "tenDuong": "Trần Bình Trọng",
+    "cap": 0,
+    "listDuongNho": [36],
+    "listCanh": [84, 96, 97]
+  },
+  {
+    "id": 32,
+    "tenDuong": "Ngõ 31 Trương Hán Siêu",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [86]
+  },
+  {
+    "id": 33,
+    "tenDuong": "Ngõ 41 Quang Trung",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [88]
+  },
+  {
+    "id": 34,
+    "tenDuong": "Nguyễn Gia Thiều",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": [91, 93, 95]
+  },
+  {
+    "id": 35,
+    "tenDuong": "Ngõ Trần Quốc Toản",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [92]
+  },
+  {
+    "id": 36,
+    "tenDuong": "Ngõ Trần Bình Trọng",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": [98]
   }
 ]
