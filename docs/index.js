@@ -3,6 +3,8 @@ var ctx = c.getContext("2d");
 function drawRoad(listPoints) {
   ctx.clearRect(0, 0, 10000, 100000); // Xóa các đường vẽ cũ trên bản vẽ canvas
   ctx.beginPath();
+  ctx.shadowBlur = 10;
+  ctx.shadowColor = "red";
   ctx.lineWidth = 5; // Đặt giá trị độ rộng cho đường vẽ.
   ctx.strokeStyle = "red"; // Đặt giá trị màu cho đường vẽ
   ctx.moveTo(listPoints[0].x, listPoints[0].y); // Di chuyển điểm vẽ đến tọa độ vị trí điểm xuất phát
@@ -10,6 +12,35 @@ function drawRoad(listPoints) {
     ctx.lineTo(listPoints[i].x, listPoints[i].y); // Vẽ đường lần lượt đến tường điểm tiếp theo trên đường đi cho tới điểm cuối cùng.
   }
   ctx.stroke();
+
+  // Vẽ điểm xuất phát
+  ctx.beginPath();
+  ctx.arc(listPoints[0].x, listPoints[0].y, 5, 0, 2 * Math.PI);
+  ctx.lineWidth = 6;
+  ctx.shadowBlur = 10;
+  ctx.shadowColor = "blue";
+  ctx.strokeStyle = "white";
+  ctx.stroke();
+  ctx.fillStyle = "blue";
+  ctx.fill();
+
+  // Vẽ điểm đích
+  ctx.beginPath();
+  ctx.arc(
+    listPoints[listPoints.length - 1].x,
+    listPoints[listPoints.length - 1].y,
+    2,
+    0,
+    2 * Math.PI
+  );
+
+  ctx.lineWidth = 12;
+  ctx.shadowBlur = 10;
+  ctx.shadowColor = "black";
+  ctx.strokeStyle = "white";
+  ctx.stroke();
+  ctx.fillStyle = "black";
+  ctx.fill();
 }
 
 class PriorityQueue {

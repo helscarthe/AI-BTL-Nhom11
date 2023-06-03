@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <div class="content">
-            <form>
+    <!-- <div class="content"> -->
+    <!-- <form>
                 <div class="textBox">
                     <div class="Start">
                         <form>
@@ -119,18 +119,30 @@
                 </form>    
                 
 
+        </div> -->
+    <div id="main">
+      <div id="menu">
+        <label>Đường</label>
+        <select name="duong" id="duong">
+          <option value="" selected>Khong</option>
+          <option value="" selected>Khong</option>
+          <option value="" selected>Khong</option>
+        </select>
+      </div>
+      <div id="map">
+        <div id="board">
+          <img id="image" src="map.png" />
+          <canvas id="myCanvas" width="900px" height="900px"></canvas>
         </div>
-        <input type="number" id="startName"/>
-        <input type="number" id="endName"/>
+      </div>
+    </div>
 
-        <button id="search" >Search</button>
-        <button id = "a">Nhán vào để thấy các điểm</button>  
-        <div class="map">
-            <div id="board">
-                <img id="image" src="map.png" />
-                <canvas id="myCanvas" width="900px" height="900px"></canvas>
-              </div>
-        </div>
+    <div id="test">
+      <input type="number" id="startName" />
+      <input type="number" id="endName" />
+      <button id="search">Search</button>
+      <button id="a">Nhán vào để thấy các điểm</button>
+    </div>
   </body>
   <script src="./test.js"></script>
   <script src="./index.js"></script>

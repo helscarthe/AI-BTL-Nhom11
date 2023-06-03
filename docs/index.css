@@ -1,13 +1,26 @@
-.textBox {
+/* .textBox {
   background-color: aqua;
   margin-left: 0;
   width: 30%;
   padding-bottom: 43%;
   border-right: 2px solid #000;
   float: left;
-}
-.map {
+} */
+/* .map {
   float: right;
+} */
+
+#main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#menu {
+  height: 800px;
+  background-color: #ff6d5c;
+  flex-basis: 300px;
 }
 #board {
   position: relative;
@@ -19,4 +32,6 @@
 }
 #myCanvas {
   position: absolute;
+  width: 900px;
+  height: 900px;
 }

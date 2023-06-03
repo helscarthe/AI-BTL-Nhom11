@@ -11,6 +11,7 @@ async function logJSONData() {
     ctx.arc(dinhs[i].toaDo[0], dinhs[i].toaDo[1], 3, 0, 2 * Math.PI);
     ctx.lineWidth = 2;
     ctx.strokeStyle = "blue";
+    ctx.shadowBlur = 0;
     ctx.stroke();
 
     ctx.font = "15px Arial";
