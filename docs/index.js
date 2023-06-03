@@ -1,14 +1,13 @@
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 function drawRoad(listPoints) {
-  ctx.clearRect(0, 0, 10000, 100000);
+  ctx.clearRect(0, 0, 10000, 100000); // Xóa các đường vẽ cũ trên bản vẽ canvas
   ctx.beginPath();
-
-  ctx.lineWidth = 5;
-  ctx.strokeStyle = "red";
-  ctx.moveTo(listPoints[0].x, listPoints[0].y);
+  ctx.lineWidth = 5; // Đặt giá trị độ rộng cho đường vẽ.
+  ctx.strokeStyle = "red"; // Đặt giá trị màu cho đường vẽ
+  ctx.moveTo(listPoints[0].x, listPoints[0].y); // Di chuyển điểm vẽ đến tọa độ vị trí điểm xuất phát
   for (var i = 1; i < listPoints.length; i++) {
-    ctx.lineTo(listPoints[i].x, listPoints[i].y);
+    ctx.lineTo(listPoints[i].x, listPoints[i].y); // Vẽ đường lần lượt đến tường điểm tiếp theo trên đường đi cho tới điểm cuối cùng.
   }
   ctx.stroke();
 }
@@ -87,6 +86,8 @@ class PriorityQueue {
     this.heapifyUp();
   }
 
+  // Việc sắp xếp các đỉnh trong tập mở được dựa trên giá trị f của đỉnh
+  // đỉnh nào có f nhỏ nhất thì nằm ở đầu.
   heapifyUp() {
     let index = this.heap.length - 1;
     while (this.hasParent(index) && this.parent(index).f > this.heap[index].f) {
@@ -119,7 +120,9 @@ function findRoad(startName, endName, jsonData) {
   var dinhs = jsonData;
   var start = dinhs[startName - 1];
   var goal = dinhs[endName - 1];
+
   function reconstruct_path(cameFrom, current) {
+    // Hàm ghi nhận kết quả trả ra danh sách các đỉnh cần đi qua theo đúng thứ tự
     var dinh = current.tenDinh;
     var total_path = [dinh];
     while (dinh != cameFrom[dinh]) {
@@ -128,38 +131,49 @@ function findRoad(startName, endName, jsonData) {
     }
     return total_path;
   }
+
+  // Khai triển thuật toán A*
   function A_Star(start, goal, h) {
     var openSet = new PriorityQueue();
     var cameFrom = [];
-    var gScore = []; // map with default value of Infinity
-    var fScore = []; // map with default value of Infinity
+    var gScore = []; // Mảng dùng để lưu giá trị g(n);
+    var fScore = []; // Mảng dùng để luw giá trị f(n);
+
+    // Khởi tạo các giá trị đầu cho thuật toán.
     dinhs.forEach((dinh) => {
+      // Đặt đường đi đi từ điểm xuất phát đến điểm đích mà đi qua "dinh" là vô cùng.
       fScore[dinh.tenDinh] = 10000000;
+      // Đặt đường đi đi từ điểm xuất phát đến điểm "dinh" là vô cùng.
       gScore[dinh.tenDinh] = 10000000;
     });
-    gScore[start.tenDinh] = 0;
-    fScore[start.tenDinh] = h(start);
+    gScore[start.tenDinh] = 0; // g(đỉnh xuất phát)  = 0
+    fScore[start.tenDinh] = h(start); //
     cameFrom[start.tenDinh] = start.tenDinh;
-    openSet.add({ dinh: start, f: fScore[start.tenDinh] });
+    openSet.add({ dinh: start, f: fScore[start.tenDinh] }); // Ban đầu tập mở chỉ bao gồm đỉnh xuất phát.
     var isInOpenSet = [];
     isInOpenSet[start.tenDinh] = true;
 
     while (openSet.peek() != null) {
-      var current = openSet.peek();
+      // Lặp cho đến khi tập mở rỗng.
+      var current = openSet.peek(); // Lấy đỉnh có f(n) nhỏ nhất trong tập mở.
       current = current.dinh;
       if (current === goal) {
-        return reconstruct_path(cameFrom, current);
+        // Nếu đỉnh vừa lấy ra trùng đỉnh đính thì ta có được kết quả đường đi.
+        return reconstruct_path(cameFrom, current); // gọi hàm ghi nhận kết quả và thoát vòng lặp.
       }
-      openSet.remove(); // openSet remove current;
+      openSet.remove(); // Xóa đỉnh đó ra khỏi tập mở;
       isInOpenSet[current.tenDinh] = false;
       current.listDinhKe.forEach(({ tenDinh, doDai }) => {
+        // Duyệt qua tất cả các đường đi tới các đỉnh kề của đỉnh đang xét.
         var neighbor = dinhs[tenDinh - 1];
-        var tentative_gScore = gScore[current.tenDinh] + doDai;
+        var tentative_gScore = gScore[current.tenDinh] + doDai; // Tính g(n) là độ dài đường đi nếu đi qua đỉnh hàng xóm này.
         if (tentative_gScore < gScore[neighbor.tenDinh]) {
+          // Nếu g() mới nhỏ hơn g() cũ thì cập nhật g() của đỉnh hàng xóm này và cập nhật lại đỉnh trước của đỉnh hàng xóm này.
           cameFrom[neighbor.tenDinh] = current.tenDinh;
           gScore[neighbor.tenDinh] = tentative_gScore;
-          fScore[neighbor.tenDinh] = tentative_gScore + h(neighbor);
+          fScore[neighbor.tenDinh] = tentative_gScore + h(neighbor); // Tính h() cho đỉnh hàng xóm.
           if (!isInOpenSet[neighbor.tenDinh]) {
+            // Nếu đỉnh hàng xóm không có trong danh sách mở thì thêm vào.
             openSet.add({ dinh: neighbor, f: fScore[neighbor.tenDinh] });
             isInOpenSet[neighbor.tenDinh] = true;
           }
@@ -170,11 +184,14 @@ function findRoad(startName, endName, jsonData) {
     }
   }
 
+  // H(n)
   function h(dinh) {
+    // goal là đỉnh đích được lưu trong closure của hàm bên ngoài.
     var dx = dinh.toaDo[0] - goal.toaDo[0];
     var dy = dinh.toaDo[1] - goal.toaDo[1];
     return Math.sqrt(dx * dx + dy * dy);
   }
+
   var result = A_Star(start, goal, h);
   var listPoints = [];
   result.forEach((e) => {
