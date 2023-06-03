@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "dinh": [1,2],
+    "motChieu": true,
+    "listSoNha": [31,32,33,34,35,36,37,38,39]
+  },
+  {
+    "id": 2,
+    "dinh": [2,3],
+    "motChieu": true,
+    "listSoNha": [4,5,6,7,8,9]
+  }
+]

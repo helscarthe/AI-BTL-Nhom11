@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "tenDuong": "Tràng Thi",
+    "cap": 0,
+    "listDuongNho": [],
+    "listCanh": []
+  },
+  {
+    "id": 2,
+    "tenDuong": "Triệu Quốc Đạt",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": []
+  },
+  {
+    "id": 3,
+    "tenDuong": "Hai Bà Trưng",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": []
+  },
+  {
+    "id": 4,
+    "tenDuong": "Thợ Nhuộm",
+    "cap": 1,
+    "listDuongNho": [],
+    "listCanh": []
+  }
+]
