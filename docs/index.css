@@ -7,19 +7,30 @@
 }
 
 #menu {
-  height: 900px;
-  background-color: #ff6d5c;
-  flex-basis: 300px;
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  background-color: whitesmoke;
+  height: 500px;
+  background-color: white;
+  width: 300px;
+  margin-right: 50px;
+  border: solid silver;
+  box-shadow: 5px 5px 5px silver;
+  z-index: 2;
 }
 #board {
+  margin-left: 300px;
   position: relative;
-  width: 900px;
+  width: 1000px;
   height: 900px;
 }
 #image {
   position: absolute;
+  border: solid silver;
+  box-shadow: 5px 5px 5px silver;
 }
-#myCanvas {
+.canvas {
   position: absolute;
   width: 900px;
   height: 900px;

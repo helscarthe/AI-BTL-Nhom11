@@ -20,11 +20,20 @@
     </div>
 
     <div id="main">
-      <div id="menu"></div>
-
+      <div id="menu">
+        <button id="toggle_btn">OFF</button>
+        <button id="delete_canvas">Xóa đường đi</button>
+      </div>
+      <br />
       <div id="board">
         <img id="image" src="map.png" />
-        <canvas id="myCanvas" width="900px" height="900px"></canvas>
+        <canvas class="canvas" id="point" width="900px" height="900px"></canvas>
+        <canvas
+          class="canvas"
+          id="myCanvas"
+          width="900px"
+          height="900px"
+        ></canvas>
       </div>
     </div>
   </body>

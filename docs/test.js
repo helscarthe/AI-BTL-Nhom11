@@ -1,24 +1,42 @@
-async function logJSONData() {
+async function showPoint() {
   const response = await fetch(
     "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/giao_diem.json"
   );
   const jsonData = await response.json();
   var dinhs = jsonData;
-  var c = document.getElementById("myCanvas");
-  var ctx = c.getContext("2d");
+  var a = document.getElementById("point");
+  var ct = a.getContext("2d");
   for (var i = 0; i < dinhs.length; i++) {
-    ctx.beginPath();
-    ctx.arc(dinhs[i].toaDo[0], dinhs[i].toaDo[1], 3, 0, 2 * Math.PI);
-    ctx.lineWidth = 2;
-    ctx.strokeStyle = "blue";
-    ctx.shadowBlur = 0;
-    ctx.stroke();
+    ct.beginPath();
+    ct.arc(dinhs[i].toaDo[0], dinhs[i].toaDo[1], 3, 0, 2 * Math.PI);
+    ct.lineWidth = 2;
+    ct.strokeStyle = "blue";
+    ct.shadowBlur = 0;
+    ct.stroke();
 
-    ctx.font = "15px Arial";
-    ctx.fillText(i + 1, dinhs[i].toaDo[0], dinhs[i].toaDo[1]);
+    ct.font = "15px Arial";
+    ct.fillText(i + 1, dinhs[i].toaDo[0], dinhs[i].toaDo[1]);
   }
 }
-var btn = document.getElementById("a");
+
+var count = 0;
+var btn = document.getElementById("toggle_btn");
 btn.addEventListener("click", (e) => {
-  logJSONData();
+  if (count % 2 == 0) {
+    showPoint();
+    btn.textContent = "ON";
+  } else {
+    btn.textContent = "OFF";
+    var a = document.getElementById("point");
+    var ct = a.getContext("2d");
+    ct.clearRect(0, 0, 10000, 100000);
+  }
+  count++;
+});
+
+var btn1 = document.getElementById("delete_canvas");
+btn1.addEventListener("click", (e) => {
+  var a1 = document.getElementById("myCanvas");
+  var ct1 = a1.getContext("2d");
+  ct1.clearRect(0, 0, 10000, 100000);
 });
