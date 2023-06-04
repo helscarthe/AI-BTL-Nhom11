@@ -19,6 +19,12 @@
   box-shadow: 5px 5px 5px silver;
   z-index: 2;
 }
+#group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-columns: 100px 200px;
+}
 #board {
   margin-left: 300px;
   position: relative;

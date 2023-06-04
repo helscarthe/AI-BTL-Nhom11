@@ -12,16 +12,17 @@
   </head>
 
   <body>
-    <div id="test">
-      <input type="number" id="startName" />
-      <input type="number" id="endName" />
-      <button id="search">Search</button>
-    </div>
-
     <div id="main">
       <div id="menu">
-        <button id="toggle_btn">OFF</button>
-        <button id="delete_canvas">Xóa đường đi</button>
+        <div class="group" id="debug_search">
+          <input type="number" id="startName" />
+          <input type="number" id="endName" />
+          <button id="search">Search</button>
+        </div>
+        <div class="group" id="debug_test">
+          <button id="toggle_btn">Bật/tắt điểm</button>
+          <button id="delete_canvas">Xóa đường đi</button>
+        </div>
       </div>
       <br />
       <div id="board">
