@@ -23,10 +23,15 @@
 }
 .input-group {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+  max-width: auto;
+}
+.input-section {
+  display: grid;
+  grid-template-columns: 90px 180px;
+  column-gap: 20px;
+  max-width: auto;
 }
 .debug-group {
   display: grid;

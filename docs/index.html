@@ -9,11 +9,62 @@
     />
     <title>TranHungDao</title>
     <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   </head>
 
   <body>
     <div id="main">
       <div id="menu">
+        <div class="input-group" id="start-group">
+          <label>Điểm đầu:</label>
+          <div></div>
+          <div class="input-section" id="Duong-start-section">
+            <label for="Duong-start">Đường:</label>
+            <select name="lang" id="Duong-start">
+              <option value="" selected>Không</option>
+            </select>
+          </div>
+          <div class="input-section" id="Ngo-start-section">
+            <label for="Ngo-start">Ngõ:</label>
+            <select name="lang" id="Ngo-start">
+              <option value="" selected>Không</option>
+            </select>
+          </div>
+          <div class="input-section" id="SoNha-start-section">
+            <label for="SoNha-start">Số nhà:</label>
+            <select name="lang" id="SoNha-start">
+              <option value="" selected>Không</option>
+            </select>
+          </div>
+        </div>
+        </br>
+        <div class="input-group" id="end-group">
+          <label>Điểm cuối:</label>
+          <div></div>
+          <div class="input-section" id="Duong-end-section">
+            <label for="Duong-end">Đường:</label>
+            <select name="lang" id="Duong-end">
+              <option value="" selected>Không</option>
+            </select>
+          </div>
+          <div class="input-section" id="Ngo-end-section">
+            <label for="Ngo-end">Ngõ:</label>
+            <select name="lang" id="Ngo-end">
+              <option value="" selected>Không</option>
+            </select>
+          </div>
+          <div class="input-section" id="SoNha-end-section">
+            <label for="SoNha-end">Số nhà:</label>
+            <select name="lang" id="SoNha-end">
+              <option value="" selected>Không</option>
+            </select>
+          </div>
+        </div>
+        </br>
+        <button id="submit">Submit</button>
+        </br>
+        </br>
+        <label>DEBUG:</label>
         <div class="debug-group">
           <input class="debug-input" type="number" id="startName"/>
           <input class="debug-input" type="number" id="endName"/>
@@ -35,6 +86,7 @@
       </div>
     </div>
   </body>
+  <script src="./input.js"></script>
   <script src="./test.js"></script>
   <script src="./index.js"></script>
 </html>
