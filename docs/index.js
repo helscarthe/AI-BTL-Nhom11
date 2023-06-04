@@ -160,6 +160,7 @@ function findRoad(startName, endName, jsonData) {
       dinh = cameFrom[dinh];
       total_path.unshift(dinh);
     }
+
     return total_path;
   }
 
@@ -190,7 +191,7 @@ function findRoad(startName, endName, jsonData) {
       current = current.dinh;
       if (current === goal) {
         // Nếu đỉnh vừa lấy ra trùng đỉnh đính thì ta có được kết quả đường đi.
-        return reconstruct_path(cameFrom, current); // gọi hàm ghi nhận kết quả và thoát vòng lặp.
+        return [reconstruct_path(cameFrom, current), fScore[goal.tenDinh]]; // gọi hàm ghi nhận kết quả và thoát vòng lặp.
       }
       openSet.remove(); // Xóa đỉnh đó ra khỏi tập mở;
       isInOpenSet[current.tenDinh] = false;
@@ -224,8 +225,11 @@ function findRoad(startName, endName, jsonData) {
   }
 
   var result = A_Star(start, goal, h);
+  var roadLength = result[1]; // do dai duong di day
+  console.log(roadLength);
+  var roadPoints = result[0];
   var listPoints = [];
-  result.forEach((e) => {
+  roadPoints.forEach((e) => {
     listPoints.push({ x: dinhs[e - 1].toaDo[0], y: dinhs[e - 1].toaDo[1] });
   });
   return listPoints;
