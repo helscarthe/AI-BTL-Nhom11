@@ -141,7 +141,7 @@ $('#Ngo-end').change(function() {
   $('#SoNha-end').html(updateDuong(dropVal));
 })
 
-$('#SoNha-start, #SoNha-end').change(function() {
+$('.input').change(function() {
   $('#submit'). prop('disabled', true);
   if ($('#SoNha-start').val() === "") {
     return false;
