@@ -12,19 +12,28 @@
   </head>
 
   <body>
-    <div id="test">
-      <input type="number" id="startName" />
-      <input type="number" id="endName" />
-      <button id="search">Search</button>
-      <button id="a">Nhán vào đây để thấy các điểm</button>
-    </div>
-
     <div id="main">
-      <div id="menu"></div>
-
+      <div id="menu">
+        <div class="group" id="debug_search">
+          <input type="number" id="startName" />
+          <input type="number" id="endName" />
+          <button id="search">Search</button>
+        </div>
+        <div class="group" id="debug_test">
+          <button id="toggle_btn">Bật/tắt điểm</button>
+          <button id="delete_canvas">Xóa đường đi</button>
+        </div>
+      </div>
+      <br />
       <div id="board">
         <img id="image" src="map.png" />
-        <canvas id="myCanvas" width="900px" height="900px"></canvas>
+        <canvas class="canvas" id="point" width="900px" height="900px"></canvas>
+        <canvas
+          class="canvas"
+          id="myCanvas"
+          width="900px"
+          height="900px"
+        ></canvas>
       </div>
     </div>
   </body>
