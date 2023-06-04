@@ -151,6 +151,8 @@ function findRoad(startName, endName, jsonData) {
   var dinhs = jsonData;
   var start = dinhs[startName - 1];
   var goal = dinhs[endName - 1];
+  console.log(start);
+  console.log(goal);
 
   function reconstruct_path(cameFrom, current) {
     // Hàm ghi nhận kết quả trả ra danh sách các đỉnh cần đi qua theo đúng thứ tự
@@ -226,13 +228,12 @@ function findRoad(startName, endName, jsonData) {
 
   var result = A_Star(start, goal, h);
   var roadLength = result[1]; // do dai duong di day
-  console.log(roadLength);
   var roadPoints = result[0];
   var listPoints = [];
   roadPoints.forEach((e) => {
     listPoints.push({ x: dinhs[e - 1].toaDo[0], y: dinhs[e - 1].toaDo[1] });
   });
-  return listPoints;
+  return {'listPoints': listPoints, 'roadLength': roadLength};
 }
 
 async function getJSONData() {
@@ -245,7 +246,7 @@ async function getJSONData() {
     var startName = Number(document.getElementById("startName").value);
     var endName = Number(document.getElementById("endName").value);
     var result = findRoad(startName, endName, jsonData);
-    drawRoad(result);
+    drawRoad(result.listPoints);
   });
 }
 getJSONData();
