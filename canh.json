@@ -27,7 +27,7 @@
     "id": 5,
     "dinh": [5,6],
     "motChieu": false,
-    "listSoNha": [43,40]
+    "listSoNha": [40]
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "id": 14,
     "dinh": [12,22],
     "motChieu": true,
-    "listSoNha": [60,61,62,63,64,65,66]
+    "listSoNha": [60,61,62]
   },
   {
     "id": 15,
@@ -111,7 +111,7 @@
     "id": 19,
     "dinh": [15,16],
     "motChieu": false,
-    "listSoNha": [47,48,49,50,51,52,53,54,55,56,57,58,59]
+    "listSoNha": [49,50,51,52,53,54,55,56,57,58,59]
   },
   {
     "id": 20,
@@ -147,7 +147,7 @@
     "id": 25,
     "dinh": [19,20],
     "motChieu": false,
-    "listSoNha": [65,66]
+    "listSoNha": [66]
   },
   {
     "id": 26,
@@ -165,13 +165,13 @@
     "id": 28,
     "dinh": [20,22],
     "motChieu": false,
-    "listSoNha": [48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67]
+    "listSoNha": [60,61,62]
   },
   {
     "id": 29,
     "dinh": [22,23],
     "motChieu": false,
-    "listSoNha": [72,73,74,75,76]
+    "listSoNha": [73,74,75,76]
   },
   {
     "id": 30,
@@ -201,7 +201,7 @@
     "id": 34,
     "dinh": [25, 27],
     "motChieu": false,
-    "listSoNha": [62, 63, 64, 65, 66, 67, 68, 69, 70]
+    "listSoNha": [67, 68, 69, 70]
   },
   {
     "id": 35,
@@ -213,7 +213,7 @@
     "id": 36,
     "dinh": [27, 29],
     "motChieu": false,
-    "listSoNha": [70, 71, 72, 73, 74, 75, 76]
+    "listSoNha": [71]
   },
   {
     "id": 37,
@@ -249,19 +249,19 @@
     "id": 42,
     "dinh": [15, 34],
     "motChieu": false,
-    "listSoNha": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    "listSoNha": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
   },
   {
     "id": 43,
     "dinh": [34, 35],
     "motChieu": true,
-    "listSoNha": [87, 88, 89, 90, 91, 92]
+    "listSoNha": [88, 89, 90, 91, 92]
   },
   {
     "id": 44,
     "dinh": [35, 36],
     "motChieu": false,
-    "listSoNha": [59, 60, 61, 62, 663, 64, 65, 66, 67, 68, 69]
+    "listSoNha": [59, 60, 61, 62, 63, 64, 65, 69]
   },
   {
     "id": 45,
@@ -279,7 +279,7 @@
     "id": 47,
     "dinh": [37, 38],
     "motChieu": false,
-    "listSoNha": [77, 78, 79, 80, 81]
+    "listSoNha": [77, 78, 79, 81]
   },
   {
     "id": 48,
@@ -303,13 +303,13 @@
     "id": 51,
     "dinh": [40, 42],
     "motChieu": false,
-    "listSoNha": [76, 77, 78]
+    "listSoNha": [76]
   },
   {
     "id": 52,
     "dinh": [30, 42],
     "motChieu": false,
-    "listSoNha": [8, 9, 10]
+    "listSoNha": [9, 10]
   },
   {
     "id": 53,
@@ -333,13 +333,13 @@
     "id": 56,
     "dinh": [36, 45],
     "motChieu": false,
-    "listSoNha": [27, 28, 29, 30, 31, 32, 33]
+    "listSoNha": [27, 28]
   },
   {
     "id": 57,
     "dinh": [45, 46],
     "motChieu": false,
-    "listSoNha": [1,2 ,3,4, 5, 6, 7, 8]
+    "listSoNha": [1,2 ,3,4, 5, 6, 7]
   },
   {
     "id": 58,
@@ -381,19 +381,19 @@
     "id": 64,
     "dinh": [46, 55],
     "motChieu": false,
-    "listSoNha": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    "listSoNha": [11, 12, 13, 14]
   },
   {
     "id": 65,
     "dinh": [49, 52],
     "motChieu": false,
-    "listSoNha": [24, 25, 26, 27, 28]
+    "listSoNha": [24, 26]
   },
   {
     "id": 66,
     "dinh": [52, 53],
     "motChieu": false,
-    "listSoNha": [22, 24, 28]
+    "listSoNha": [22, 24]
   },
   {
     "id": 67,
@@ -405,13 +405,13 @@
     "id": 68,
     "dinh": [53,55],
     "motChieu": false,
-    "listSoNha": [15, 16, 17, 18, 19, 20, 21]
+    "listSoNha": [ 17, 18, 19, 20, 21]
   },
   {
     "id": 69,
     "dinh": [55,56],
     "motChieu": false,
-    "listSoNha": [22, 23 ,24]
+    "listSoNha": [15, 16, 23 ]
   },
   {
     "id": 70,
@@ -435,7 +435,7 @@
     "id": 73,
     "dinh": [50,59],
     "motChieu": false,
-    "listSoNha": [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+    "listSoNha": [6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
   },
   {
     "id": 74,
@@ -447,7 +447,7 @@
     "id": 75,
     "dinh": [52,60],
     "motChieu": false,
-    "listSoNha": [28, 29, 30, 31, 32, 34, 35, 36, 37, 39 ]
+    "listSoNha": [34, 35, 36, 37, 39 ]
   },
   {
     "id": 76,
