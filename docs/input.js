@@ -1,5 +1,6 @@
 var duong;
 var canh;
+var giaoDiem;
 window.onload = async function() {
   const responseCanh = await fetch(
     "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/canh.json"
@@ -11,6 +12,11 @@ window.onload = async function() {
   );
   const jsonDataDuong = await responseDuong.json();
   duong = jsonDataDuong;
+  const responseGD = await fetch(
+    "https://raw.githubusercontent.com/helscarthe/AI-BTL-Nhom11/main/duong.json"
+  );
+  const jsonDataGD = await responseGD.json();
+  giaoDiem = jsonDataGD;
   var html_code = '<option value="">Không</option>';
   $.each(duong, function (index, value) {
     if (value.cap === 0) {
@@ -24,6 +30,7 @@ window.onload = async function() {
 
 $('#Ngo-start-section').hide();
 $('#Ngo-end-section').hide();
+$('#submit'). prop('disabled', true);
 
 function updateDuong(duongVal) {
   canhID = [];
@@ -132,4 +139,15 @@ $('#Ngo-end').change(function() {
   }
 
   $('#SoNha-end').html(updateDuong(dropVal));
+})
+
+$('#SoNha-start, #SoNha-end').change(function() {
+  $('#submit'). prop('disabled', true);
+  if ($('#SoNha-start').val() === "") {
+    return false;
+  }
+  if ($('#SoNha-end').val() === "") {
+    return false;
+  }
+  $('#submit'). prop('disabled', false);
 })
